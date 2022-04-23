@@ -1,14 +1,15 @@
 body {
 	color: #000000;
-	background-color: white;
+	background-color: #FFFFFF;
 	font-family: Roboto;
 	font-style: normal;
-}
+	}
 
 ul {
 	list-style: none;
 }
 
+/* Лого */
 .logo-web {
 	font-family: 'Raleway';
 	font-style: normal;
@@ -17,30 +18,77 @@ ul {
 	line-height: 31px;
 	letter-spacing: 0.03em;
 	color: #2196F3;
+	text-decoration: none;
 }
 .logo-studio {
 color: #000000;
 }
-
+.logo-studio-footer {
+	color: #FFFFFF;
+}
+/* Шапка сайта */
 .header-studio, .header-portfolio, .header-contacts, .header-mail, .header-tel {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
-	color: #212121
+	color: #212121;
+	text-decoration: none;
 }
-
 .header-mail, .header-tel {
 	color: #757575;
 }
-.header-studio:hover, .header-portfolio:hover, .header-contacts:hover, .header-mail:hover, .header-tel:hover {
+.header-studio:hover, .header-portfolio:hover, .header-contacts:hover, .header-mail:hover, .header-tel:hover, .header-studio:focus, .header-portfolio:focus, .header-contacts:focus, .header-mail:focus, .header-tel:focus {
 color: #2196F3}
 
-.header-studio:focus, .header-portfolio:focus, .header-contacts:focus, .header-mail:focus, .header-tel:focus {
-color: #2196F3}
+/* Большое окно */
+h1 {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #2F303A;
+}
+
+/* Заказать услугу */
+.order-service {
+	width: 200px;
+	height: 50px;
+	background: #2196F3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+}
+
+/* Футер */
+footer {
+	background-color: #2F303A;
+}
+.footer-address, .footer-mail-tel {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+.footer-mail-tel {
+	color: rgba(255, 255, 255, 0.6);
+}
 
 
-/* цвет основного текста #000000 */
+
 /* вторичный цвет текста  rgba(0, 0, 0, 0.8);*/
 /* белый #FFFFFF  */
 /* акцент #18A0FB */
