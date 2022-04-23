@@ -1,0 +1,50 @@
+body {
+	color: #000000;
+	background-color: white;
+	font-family: Roboto;
+	font-style: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+.logo-web {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: #2196F3;
+}
+.logo-studio {
+color: #000000;
+}
+
+.header-studio, .header-portfolio, .header-contacts, .header-mail, .header-tel {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #212121
+}
+
+.header-mail, .header-tel {
+	color: #757575;
+}
+.header-studio:hover, .header-portfolio:hover, .header-contacts:hover, .header-mail:hover, .header-tel:hover {
+color: #2196F3}
+
+.header-studio:focus, .header-portfolio:focus, .header-contacts:focus, .header-mail:focus, .header-tel:focus {
+color: #2196F3}
+
+
+/* цвет основного текста #000000 */
+/* вторичный цвет текста  rgba(0, 0, 0, 0.8);*/
+/* белый #FFFFFF  */
+/* акцент #18A0FB */
+/* вторичный цвет фона #F5F5F5; */
+
+/* Hero */
+
