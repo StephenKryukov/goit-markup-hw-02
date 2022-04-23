@@ -1,8 +1,9 @@
 body {
 	color: #212121;
 	background-color: #FFFFFF;
-	font-family: Roboto;
+	font-family: Roboto, Verdana, Tahoma, sans-serif;
 	font-style: normal;
+	font-weight: 400;
 	}
 
 ul {
@@ -41,7 +42,7 @@ color: #212121;
 color: #2196F3}
 
 /* Большое окно */
-h1 {
+.big-window {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 60px;
@@ -53,7 +54,7 @@ h1 {
 }
 
 /* Заказать услугу */
-.order-service {
+.main-button {
 	width: 200px;
 	height: 50px;
 	background: #2196F3;
@@ -67,6 +68,7 @@ h1 {
 	align-items: center;
 	letter-spacing: 0.06em;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 /* Преимущества */
@@ -78,7 +80,6 @@ h1 {
 	text-transform: uppercase;
 }
 .advantages-description {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
@@ -102,7 +103,6 @@ h1 {
 	letter-spacing: 0.03em;
 }
 .team-job {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 0.03em;
@@ -121,6 +121,7 @@ h1 {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
+	cursor: pointer;
 }
 .portfolio-button:hover, .portfolio-button:focus {
 	background: #2196F3;
@@ -143,7 +144,6 @@ h1 {
 	letter-spacing: 0.06em;
 }
 .portfolio-pic-description {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
@@ -154,25 +154,14 @@ h1 {
 footer {
 	background-color: #2F303A;
 }
-.footer-address, .footer-mail-tel {
+.footer-address {
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-	color: #FFFFFF;
+	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
 	}
-.footer-mail-tel {
-	color: rgba(255, 255, 255, 0.6);
+.footer-address:hover, .footer-address:focus {
+	color: #FFFFFF;
 }
-
-
-
-/* вторичный цвет текста  rgba(0, 0, 0, 0.8);*/
-/* белый #FFFFFF  */
-/* акцент #18A0FB */
-/* вторичный цвет фона #F5F5F5; */
-
-/* Hero */
-
